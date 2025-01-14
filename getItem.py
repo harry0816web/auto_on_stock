@@ -16,8 +16,8 @@ from openpyxl import load_workbook
 from openpyxl.drawing.image import Image as OImage
 
 # 假設你的登入帳密、目標頁面
-LOGIN_EMAIL = 'rainyh258@gmail.com'
-LOGIN_PASSWORD = 'aa502501'
+# LOGIN_EMAIL = ''
+# LOGIN_PASSWORD = '
 # /product
 # input_url = "https://www.shop2000.com.tw/%E6%99%A8%E4%B8%80/p51852772"
 
