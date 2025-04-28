@@ -6,8 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # ---- 使用者資訊 ----
-LOGIN_EMAIL = 'rainyh258@gmail.com'
-LOGIN_PASSWORD = 'aa502501'
+LOGIN_EMAIL = ''
+LOGIN_PASSWORD = ''
 
 # ---- 網站位置(請修改成實際網址) ----
 LOGIN_URL = "https://www.shop2000.com.tw/晨一"   # 假設這是登入頁與商品列表同一 URL

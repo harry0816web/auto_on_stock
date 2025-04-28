@@ -14,12 +14,16 @@ import pandas as pd
 # openpyxl 相關
 from openpyxl import load_workbook
 from openpyxl.drawing.image import Image as OImage
+from dotenv import load_dotenv
 
 # 假設你的登入帳密、目標頁面
-# LOGIN_EMAIL = ''
-# LOGIN_PASSWORD = '
+# Load environment variables from .env file
+load_dotenv()
+
+LOGIN_EMAIL = os.getenv('LOGIN_EMAIL')
+LOGIN_PASSWORD = os.getenv('LOGIN_PASSWORD')
 # /product
-# input_url = "https://www.shop2000.com.tw/%E6%99%A8%E4%B8%80/p51852772"
+input_url = "https://www.shop2000.com.tw/%E6%99%A8%E4%B8%80/p51852772"
 
 # 產出檔名
 EXCEL_BASE = "shopee_upload.xlsx"             # pandas 產生的 base 檔(文字/欄位)
